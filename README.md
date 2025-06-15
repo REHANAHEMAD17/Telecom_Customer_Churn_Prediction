@@ -55,6 +55,7 @@ Target: Churn (Yes/No)
 🧱 Project Structure
 
 telecom-churn/
+|
 │
 ├── .ipynb notebooks/  # Jupyter notebooks for EDA & modeling & Training
 ├── _templates_/       # Model metrics and plots
