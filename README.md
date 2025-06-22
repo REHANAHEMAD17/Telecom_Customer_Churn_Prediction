@@ -118,7 +118,7 @@ KNN
 
 Support Vector Machine
 
-Neural Networks (optional)
+PCA
 
 
 
@@ -128,9 +128,14 @@ Neural Networks (optional)
 
 Model	Accuracy	Precision	Recall	F1 Score	ROC-AUC
 
-Logistic Regression	80.0%	75.0%	78.0%	78.0%	84.0%
-Random Forest	83.5%	81.0%	70.1%	75.2%	88.0%
-AdaBoost	85.1%	83.5%	72.8%	77.8%	89.0%
+1- Logistic Regression	80.0%	75.0%	78.0%	78.0%	84.0%
+2- Random Forest	94.0%	98.0%	96.0%
+3- AdaBoost	85.1%	83.5%	72.8%	77.8%	
+4- Decision Tree 86.0 % 84.0 % 86.0% 
+5- SVM       82.0% 92.0% 87.0%  
+6- KNN       91.0 % 80.0 % 85.0% 
+7- PCA       84.22% & 76.36 %
+
 
 
 Confusion matrices, ROC curves, and feature importances are included in the results/ directory.
